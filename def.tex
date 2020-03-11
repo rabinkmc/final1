@@ -2,7 +2,7 @@
 
 \mode<presentation>
 {
-  \usetheme{Madrid}
+  \usetheme{Warsaw}
   \setbeamercovered{transparent}
 }
 
@@ -26,6 +26,15 @@ Rajiv Bijukche, 073 BEL 330
 }
 \begin{document}
 \frame{\titlepage}
+
+
+% \begin{frame}[c]
+%   \frametitle{Title}
+%   {\LARGE
+%     Design and Analysis of Plugless Charging of Electric Vehicle using Magnetic Resonance
+%   }
+% \end{frame}
+
 \begin{frame}{Introduction}
 
 \end{frame}
@@ -60,15 +69,29 @@ Rajiv Bijukche, 073 BEL 330
 \begin{frame}
   \frametitle{Rectifer}
   220 V Ac supply was converted into DC voltage using bridge rectifer. Capacitor was used to smoothen the pulsating DC voltage . 
-
+\begin{figure}[]
+  \centering
+  \includegraphics[scale=0.3]{jpgs/rectifier.png}  
+\end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{High Frequency Inverter}
-
-  
-
+    \begin{figure}[htbp]
+      \centering
+      \includegraphics[scale=0.4]{jpgs/inverter.png}
+    \end{figure}
 \end{frame}
+
+\begin{frame}
+  \frametitle{buck converter}
+\begin{figure}[htbp]
+  \centering
+\only<1>{\includegraphics[scale=0.5]{jpgs/buck.png} }
+\only<2> {\includegraphics[scale=0.5]{jpgs/buck_graph.png}}
+\end{figure}
+\end{frame}
+
 \begin{frame}
   \frametitle{Remaining Work for Next Semester}
   \begin{itemize}
